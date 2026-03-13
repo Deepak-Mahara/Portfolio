@@ -2,22 +2,12 @@
     background: #1c1c1c;
     height: 80px;
     display: flex;
-    justify-content: center;
     align-items: center;
     font-size: 1.2rem;
     position: sticky;
     top: 0;
     z-index: 999;
-  }
-  
-  .navbar-container {
-    display: flex;
-    justify-content: space-between;
-    height: 80px;
-    z-index: 1;
-    width: 100%;
-    padding: 0 24px;
-    max-width: 1100px;
+    padding: 0 2rem;
   }
   
   .navbar-logo {
@@ -32,9 +22,11 @@
   
   .nav-menu {
     display: flex;
+    justify-content: flex-end;
     align-items: center;
     list-style: none;
     text-align: center;
+    width: 70%;
   }
   
   .nav-item {

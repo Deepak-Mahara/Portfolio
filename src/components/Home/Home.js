@@ -7,8 +7,8 @@ const Home = () => {
         <div className="home-text">
           <h1>Deepak Singh Mahara</h1>
           <p>
-            Intro text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          </p>
+            Hi, I'm Deepak, an aspiring Software Developer with a strong interest in building scalable and efficient applications. I enjoy working across the full stack, developing interactive front-end interfaces and robust backend systems that solve real-world problems.
+            </p>
           <button className="cta-button">Let's get started </button>
         </div>
         <div className="home-image">
