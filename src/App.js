@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import About from './components/About/About';
 import Achievements from './components/Achievements/Achievements';
@@ -12,8 +11,6 @@ import Skills from './components/Skills/Skills';
 
 
 function App() {
-  const [resumeFile, setResumeFile] = useState(null);
-
   return (
     <Router>
       <div className="App">
@@ -25,10 +22,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/achievements" element={<Achievements />} />
           <Route path="/certificates" element={<Certificates />} />
-          <Route 
-            path="/resume" 
-            element={<Resume resumeFile={resumeFile} setResumeFile={setResumeFile} />} 
-          />
+          <Route path="/resume" element={<Resume />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
